@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import router from './Routes/Routes.jsx';
 import AuthProvider from './Providers/AuthProvider';
+import axios from 'axios';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <div className='max-w-7xl mx-auto'> 
